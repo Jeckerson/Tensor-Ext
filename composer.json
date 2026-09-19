@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0",
@@ -82,8 +82,8 @@
         }
     },
     "support": {
-        "issues": "https://github.com/RubixML/Tensor/issues",
-        "source": "https://github.com/RubixML/Tensor",
+        "issues": "https://github.com/RubixML/Tensor-Ext/issues",
+        "source": "https://github.com/RubixML/Tensor-Ext",
         "chat": "https://t.me/RubixML"
     }
 }
