@@ -89,3 +89,18 @@ jobs:
 
       - name: Inspect PHP extension
         run: php --ri tensor
+
+      - name: Validate composer.json
+        run: composer validate
+
+      - name: Install Dependencies
+        run: composer install
+
+      - name: Static Analysis
+        run: composer analyze
+
+      - name: Unit Tests
+        run: composer test
+
+      - name: Check Coding Style
+        run: composer check
