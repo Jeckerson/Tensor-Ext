@@ -1,8 +1,9 @@
 {
-    "name": "rubix/tensor",
-    "type": "library",
-    "description": "A library and extension that provides objects for scientific computing in PHP.",
-    "homepage": "https://github.com/RubixML/Tensor",
+    "name": "rubix/tensor-ext",
+    "type": "php-ext",
+    "build-path": "ext",
+    "description": "A PHP extension that provides objects for scientific computing in PHP.",
+    "homepage": "https://github.com/RubixML/Tensor-Ext",
     "license": "MIT",
     "keywords": [
         "1d convolution", "2d convolution", "arithmetic", "blas", "computation", "computing",
@@ -19,7 +20,7 @@
         },
         {
             "name": "Contributors",
-            "homepage": "https://github.com/RubixML/Tensor/graphs/contributors"
+            "homepage": "https://github.com/RubixML/Tensor-Ext/graphs/contributors"
         }
     ],
     "require": {
@@ -36,12 +37,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Tensor\\": "src/",
             "Zephir\\Optimizers\\FunctionCall\\": "optimizers/"
-        },
-        "files": [
-            "src/constants.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {

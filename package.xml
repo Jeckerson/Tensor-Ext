@@ -3,7 +3,7 @@
 	<name>tensor</name>
 	<channel>pecl.php.net</channel>
 	<summary>Scientific computing for the PHP language.</summary>
-    <description>A library and extension that provides objects for scientific computing in PHP.</description>
+    <description>A PHP extension that provides objects for scientific computing in PHP.</description>
 	<lead>
 		<name>Andrew DalPino</name>
 		<user>andrewdalpino</user>
@@ -19,11 +19,11 @@
 		<release>stable</release>
 		<api>stable</api>
 	</stability>
-	<license uri="https://github.com/RubixML/Tensor/blob/master/LICENSE">MIT</license>
+	<license uri="https://github.com/RubixML/Tensor-Ext/blob/master/LICENSE">MIT</license>
     <notes>
-        - Implemented the singular value decomposition (SVD) in the pure-PHP library
-        - Implemented the Moore-Penrose pseudoinverse in the pure-PHP library via SVD
-        - Implemented the eigendecomposition in the pure-PHP library
+        - Implemented the singular value decomposition (SVD) in the extension
+        - Implemented the Moore-Penrose pseudoinverse in the extension via SVD
+        - Implemented the eigendecomposition in the extension
     </notes>
 	<contents>
         <dir name="/">

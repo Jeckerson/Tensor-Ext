@@ -1,24 +1,10 @@
-# Tensor: Scientific Computing for PHP
+# Tensor: A PHP Extension for Scientific Computing
 
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/rubix/tensor.svg?style=flat&colorB=8892BF)](https://www.php.net/) [![Latest Stable Version](https://img.shields.io/packagist/v/rubix/tensor.svg?style=flat&colorB=orange)](https://packagist.org/packages/rubix/tensor) [![Code Checks](https://github.com/RubixML/Tensor/actions/workflows/ci.yml/badge.svg)](https://github.com/RubixML/Tensor/actions/workflows/ci.yml) [![Extension Build](https://github.com/RubixML/Tensor/actions/workflows/ci-ext.yml/badge.svg)](https://github.com/RubixML/Tensor/actions/workflows/ci-ext.yml) [![Downloads from Packagist](https://img.shields.io/packagist/dt/rubix/tensor.svg?style=flat&colorB=red)](https://packagist.org/packages/rubix/tensor) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor)](https://github.com/RubixML/Tensor/blob/master/LICENSE.md)
+[![Extension Build](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci-ext.yml/badge.svg)](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci-ext.yml) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor-Ext/blob/master/LICENSE)
 
-A library and extension that provides objects for scientific computing in [PHP](https://php.net).
-
-> **Note:** If both the library and extension are installed, the extension will take precedence.
+A [PHP](https://php.net) extension that provides objects for scientific computing.
 
 ## Installation
-
-Follow the instructions below to install either Tensor PHP or the Tensor extension.
-
-### Tensor PHP
-
-Install Tensor PHP into your project with [Composer](https://getcomposer.org/):
-
-```sh
-$ composer require rubix/tensor
-```
-
-### Tensor Extension
 
 Install the Tensor extension via [PECL](https://pecl.php.net/package/Tensor):
 
@@ -48,7 +34,7 @@ $ pecl install tensor
 Clone the repository locally using [Git](https://git-scm.com/):
 
 ```sh
-$ git clone https://github.com/RubixML/Tensor
+$ git clone https://github.com/RubixML/Tensor-Ext
 ```
 
 Make sure you have all the necessary build tools installed such as a C compiler and make tools. For example, on an Ubuntu linux system you can enter the following on the command line to install the necessary dependencies.
@@ -91,11 +77,9 @@ export PATH="$(brew --prefix gcc)/bin:$PATH"
 export FC=$(brew --prefix gcc)/bin/gfortran
 ```
 
-## Performance Comparison
+## Performance
 
-![Tensor Performance MNIST](https://raw.githubusercontent.com/RubixML/Tensor/master/docs/images/tensor-performance-mnist.png)
-
-![Tensor Performance Benchmarks](https://raw.githubusercontent.com/RubixML/Tensor/master/docs/images/tensor-performance-benchmarks.png)
+![Tensor Performance Benchmarks](https://raw.githubusercontent.com/RubixML/Tensor-Ext/master/docs/images/tensor-performance-benchmarks.png)
 
 ## Contributing
 
