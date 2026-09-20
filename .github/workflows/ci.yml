@@ -40,8 +40,16 @@ jobs:
           apt-get update -q
           apt-get install -qy gfortran liblapack-dev libopenblas-dev liblapacke-dev
 
-      - name: Build PHP extension
-        run: pie install
+      - name: Install PIE
+        run: |
+          curl -sS https://get.pie.dev/install.sh | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Add extension as path repository
+        run: pie repository:add path .
+
+      - name: Build extension
+        run: pie build rubix/tensor_ext:*@dev
 
       - name: Enable PHP extension
         run: docker-php-ext-enable tensor_ext
