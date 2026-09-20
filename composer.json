@@ -1,10 +1,10 @@
 {
     "name": "rubix/tensor_ext",
+    "type": "php-ext",
     "php-ext": {
         "extension-name": "tensor_ext",
         "build-path": "ext"
     },
-    "type": "php-ext",
     "description": "A PHP extension that provides objects for scientific computing in PHP.",
     "homepage": "https://github.com/RubixML/Tensor-Ext",
     "license": "MIT",
