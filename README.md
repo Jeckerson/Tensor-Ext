@@ -2,7 +2,7 @@
 
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/rubix/tensor_ext.svg?style=flat&colorB=8892BF)](https://www.php.net/) [![Latest Stable Version](https://img.shields.io/packagist/v/rubix/tensor_ext.svg?style=flat&colorB=orange)](https://packagist.org/packages/rubix/tensor_ext) [![Code Checks](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci.yml/badge.svg)](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci.yml) [![Downloads from Packagist](https://img.shields.io/packagist/dt/rubix/tensor_ext.svg?style=flat&colorB=red)](https://packagist.org/packages/rubix/tensor_ext) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor-Ext/blob/master/LICENSE.md)
 
-A [PHP](https://php.net) extension that provides objects for scientific computing.
+Scientific Computing for the [PHP](https://php.net) language.
 
 ## Installation
 
@@ -10,12 +10,6 @@ Install the Tensor extension via [PIE](https://github.com/php/pie):
 
 ```sh
 $ pie install rubix/tensor_ext
-```
-
-Install the Tensor extension via [PECL](https://pecl.php.net/package/Tensor):
-
-```sh
-$ pecl install tensor
 ```
 
 ## Requirements
@@ -31,6 +25,10 @@ $ pecl install tensor
 - [autoconf](https://www.gnu.org/software/autoconf/autoconf.html) 2.31 or later
 - [automake](https://www.gnu.org/software/automake/) 1.14 or later
 - Ubuntu build-essentials
+
+## Documentation
+
+API documentation can be found in the `docs` folder in the project root.
 
 ## Manually Compiling the Extension
 
