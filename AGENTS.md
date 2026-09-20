@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for AI coding agents contributing to **Tensor** — a scientific-computing extension for PHP. The repository houses a single PECL extension: an object-oriented API written in Zephir and backed by hand-written C (OpenBLAS / LAPACKE), built from `tensor/` (Zephir source), `ext/`, and `package.xml`.
+Guidance for AI coding agents contributing to **Tensor** — a scientific-computing extension for PHP. The repository houses a single PHP extension: an object-oriented API written in Zephir and backed by hand-written C (OpenBLAS / LAPACKE), built from `tensor/` (Zephir source), `ext/`, and `config.json`.
 
 ## Repository layout
 
@@ -13,12 +13,11 @@ Guidance for AI coding agents contributing to **Tensor** — a scientific-comput
 | `optimizers/` | Zephir function-call optimizers, one `Tensor*Optimizer.php` per operation. |
 | `ext/` | Generated Zephir C code + hand-written C under `ext/include/*.c`. Do not hand-edit generated files. |
 | `config.json` | Zephir build config (namespace, version, `extra-libs`, optimization & warning flags). |
-| `package.xml` | PECL package descriptor (name, version, source list). |
 | `build-ext` | PHP script that patches `ext/config.m4` before compile (Alpine/musl + backtrace_symbols `execinfo` handling). |
 
 ## Environment
 
-- PHP **8.0+** (CI matrix is 8.0 → 8.5). `composer.json` declares `>=8.0`.
+- PHP **8.1+** (CI matrix is 8.1 → 8.5). `composer.json` declares `>=1.0`.
 - Dev tooling is installed as Composer dev dependencies (PHPStan, php-cs-fixer, phpunit, phpbench, Zephir).
 - Compiling the extension additionally needs a C compiler, GFortran, `phpize`, OpenBLAS dev headers, LAPACKE, and re2c (see README for per-OS install commands).
 
