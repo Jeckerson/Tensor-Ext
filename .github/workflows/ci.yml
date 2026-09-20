@@ -51,9 +51,6 @@ jobs:
       - name: Build extension
         run: pie build rubix/tensor_ext:*@dev
 
-      - name: Enable PHP extension
-        run: docker-php-ext-enable tensor_ext
-
       - name: Check for PHP startup warnings
         run: |
           php -d display_errors=stderr -d display_startup_errors=1 -d error_reporting=-1 -r ';' 2>/tmp/php-startup-warnings
