@@ -1,4 +1,4 @@
-name: Compile extension
+name: Code Checks
 
 on:
   pull_request:
