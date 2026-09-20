@@ -5,12 +5,14 @@ on:
     paths:
       - ".github/workflows/ci.*"
       - "ext/**"
+      - "tests/**"
   push:
     branches:
       - "**"
     paths:
       - ".github/workflows/ci.*"
       - "ext/**"
+      - "tests/**"
     tags-ignore:
       - "**"
 
