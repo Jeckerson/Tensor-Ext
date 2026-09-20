@@ -1,6 +1,6 @@
 # Tensor: A PHP Extension for Scientific Computing
 
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/rubix/tensor_ext.svg?style=flat&colorB=8892BF)](https://www.php.net/) [![Latest Stable Version](https://img.shields.io/packagist/v/rubix/tensor_ext.svg?style=flat&colorB=orange)](https://packagist.org/packages/rubix/tensor_ext) [![Code Checks](https://github.com/RubixML/Tensor/actions/workflows/ci.yml/badge.svg)](https://github.com/RubixML/Tensor/actions/workflows/ci.yml) [![Downloads from Packagist](https://img.shields.io/packagist/dt/rubix/tensor_ext.svg?style=flat&colorB=red)](https://packagist.org/packages/rubix/tensor_ext) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor/blob/master/LICENSE.md)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/rubix/tensor_ext.svg?style=flat&colorB=8892BF)](https://www.php.net/) [![Latest Stable Version](https://img.shields.io/packagist/v/rubix/tensor_ext.svg?style=flat&colorB=orange)](https://packagist.org/packages/rubix/tensor_ext) [![Code Checks](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci.yml/badge.svg)](https://github.com/RubixML/Tensor/actions/workflows/ci.yml) [![Downloads from Packagist](https://img.shields.io/packagist/dt/rubix/tensor_ext.svg?style=flat&colorB=red)](https://packagist.org/packages/rubix/tensor_ext) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor/blob/master/LICENSE.md)
 
 A [PHP](https://php.net) extension that provides objects for scientific computing.
 
@@ -20,7 +20,7 @@ $ pecl install tensor
 
 ## Requirements
 
-- [PHP](https://php.net) 8.0 or above
+- [PHP](https://php.net) 8.1 or above
 - A C compiler such as [GCC](https://gcc.gnu.org/), [Clang](https://clang.llvm.org/), or [Visual C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 - A Fortran compiler such as [GFortran](https://gcc.gnu.org/wiki/GFortran)
 - The PHP development package (source code and tooling)
