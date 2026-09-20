@@ -1,7 +1,7 @@
 {
     "namespace": "tensor",
     "name": "tensor",
-    "extension-name": "tensor",
+    "extension-name": "tensor_ext",
     "description": "Scientific computing for the PHP language.",
     "author": "The Rubix ML Community",
     "version": "3.1.0",
