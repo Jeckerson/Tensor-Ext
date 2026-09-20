@@ -42,8 +42,9 @@ jobs:
 
       - name: Install PIE
         run: |
-          curl -sS https://get.pie.dev/install.sh | sh
-          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          curl -fL --output /tmp/pie.phar https://github.com/php/pie/releases/latest/download/pie.phar
+          sudo mv /tmp/pie.phar /usr/local/bin/pie
+          sudo chmod +x /usr/local/bin/pie
 
       - name: Add extension as path repository
         run: pie repository:add path .
