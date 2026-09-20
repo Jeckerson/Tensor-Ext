@@ -6,6 +6,12 @@ A [PHP](https://php.net) extension that provides objects for scientific computin
 
 ## Installation
 
+Install the Tensor extension via [PIE](https://github.com/php/pie):
+
+```sh
+$ pie install tensor_ext
+```
+
 Install the Tensor extension via [PECL](https://pecl.php.net/package/Tensor):
 
 ```sh
@@ -15,9 +21,6 @@ $ pecl install tensor
 ## Requirements
 
 - [PHP](https://php.net) 8.0 or above
-
-### Optional To Compile Extension
-
 - A C compiler such as [GCC](https://gcc.gnu.org/), [Clang](https://clang.llvm.org/), or [Visual C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 - A Fortran compiler such as [GFortran](https://gcc.gnu.org/wiki/GFortran)
 - The PHP development package (source code and tooling)
@@ -56,13 +59,13 @@ $ sudo make install
 Finally, add the following line to your `php.ini` configuration to install the extension.
 
 ```
-extension=tensor.so
+extension=tensor_ext.so
 ```
 
 To confirm that the extension is loaded in PHP, you can run the following command.
 
 ```sh
-php -m | grep tensor
+php -m | grep tensor_ext
 ```
 
 ### Tip for Compiling on MacOS
@@ -76,10 +79,6 @@ export PKG_CONFIG_PATH="$(brew --prefix openblas)/lib/pkgconfig:$(brew --prefix 
 export PATH="$(brew --prefix gcc)/bin:$PATH"
 export FC=$(brew --prefix gcc)/bin/gfortran
 ```
-
-## Performance
-
-![Tensor Performance Benchmarks](https://raw.githubusercontent.com/RubixML/Tensor-Ext/master/docs/images/tensor-performance-benchmarks.png)
 
 ## Contributing
 
