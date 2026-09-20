@@ -1,6 +1,6 @@
 # Tensor: A PHP Extension for Scientific Computing
 
-[![Extension Build](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci-ext.yml/badge.svg)](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci-ext.yml) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor-Ext/blob/master/LICENSE)
+[![Extension Build](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci.yml/badge.svg)](https://github.com/RubixML/Tensor-Ext/actions/workflows/ci.yml) [![GitHub](https://img.shields.io/github/license/RubixML/Tensor-Ext)](https://github.com/RubixML/Tensor-Ext/blob/master/LICENSE)
 
 A [PHP](https://php.net) extension that provides objects for scientific computing.
 
