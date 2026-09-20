@@ -9,7 +9,7 @@ A [PHP](https://php.net) extension that provides objects for scientific computin
 Install the Tensor extension via [PIE](https://github.com/php/pie):
 
 ```sh
-$ pie install tensor_ext
+$ pie install rubix/tensor_ext
 ```
 
 Install the Tensor extension via [PECL](https://pecl.php.net/package/Tensor):
