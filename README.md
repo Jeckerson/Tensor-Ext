@@ -20,7 +20,7 @@ $ pecl install tensor
 
 ## Requirements
 
-- [PHP](https://php.net) 8.0 or above
+- [PHP](https://php.net) 8.1 or above
 - A C compiler such as [GCC](https://gcc.gnu.org/), [Clang](https://clang.llvm.org/), or [Visual C++](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 - A Fortran compiler such as [GFortran](https://gcc.gnu.org/wiki/GFortran)
 - The PHP development package (source code and tooling)
